@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Vehicle",
+  "fields": [
+    {
+      "name": "car_id",
+      "type": "long"
+    }
+  ],
+  "namespace": "VehicleTelemetryKey.v1"
+}

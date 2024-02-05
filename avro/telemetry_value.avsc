@@ -1,0 +1,131 @@
+{
+  "type": "record",
+  "name": "VehicleTelemetry",
+  "fields": [
+    {
+      "name": "session_time",
+      "type": "double"
+    },
+    {
+      "name": "lap_time",
+      "type": "double"
+    },
+    {
+      "name": "lap_distance",
+      "type": "double"
+    },
+    {
+      "name": "total_distance",
+      "type": "double"
+    },
+    {
+      "name": "x_position",
+      "type": "double"
+    },
+    {
+      "name": "y_position",
+      "type": "double"
+    },
+    {
+      "name": "z_position",
+      "type": "double"
+    },
+    {
+      "name": "speed",
+      "type": "double"
+    },
+    {
+      "name": "throttle",
+      "type": "double"
+    },
+    {
+      "name": "brake",
+      "type": "double"
+    },
+    {
+      "name": "clutch",
+      "type": "double"
+    },
+    {
+      "name": "gear",
+      "type": "long"
+    },
+    {
+      "name": "steer",
+      "type": "double"
+    },
+    {
+      "name": "normalized_steer",
+      "type": "double"
+    },
+    {
+      "name": "engine_rpm",
+      "type": "long"
+    },
+    {
+      "name": "drs",
+      "type": "long"
+    },
+    {
+      "name": "engine_temperature",
+      "type": "long"
+    },
+    {
+      "name": "fuel_remaining",
+      "type": "double"
+    },
+    {
+      "name": "fuel_capacity",
+      "type": "double"
+    },
+    {
+      "name": "in_pits",
+      "type": "long"
+    },
+    {
+      "name": "sector",
+      "type": "long"
+    },
+    {
+      "name": "lap_invalid",
+      "type": "long"
+    },
+    {
+      "name": "penalties",
+      "type": "long"
+    },
+    {
+      "name": "ai_controlled",
+      "type": "long"
+    },
+    {
+      "name": "pit_limiter_on",
+      "type": "long"
+    },
+    {
+      "name": "front_left_wing_damage",
+      "type": "long"
+    },
+    {
+      "name": "front_right_wing_damage",
+      "type": "long"
+    },
+    {
+      "name": "rear_wing_damage",
+      "type": "long"
+    },
+    {
+      "name": "engine_damage",
+      "type": "long"
+    },
+    {
+      "name": "gear_box_damage",
+      "type": "long"
+    },
+    {
+      "name": "vehicle_fia_flags",
+      "type": "long"
+    }
+  ],
+  "namespace": "VehicleTelemetryValue.v1"
+}
