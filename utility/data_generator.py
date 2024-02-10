@@ -10,7 +10,6 @@ class DataGenerator:
             field.name: DataGenerator.generate_random_value(field.type)
             for field in fields(data_class)
         }
-        print(field_values)
         return data_class(**field_values)
 
     @staticmethod

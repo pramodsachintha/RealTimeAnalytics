@@ -1,1 +1,4 @@
 boostrap.servers = "host1:9092,host2:9092"
+
+[schema_registry]
+url = "http://localhost:8081"

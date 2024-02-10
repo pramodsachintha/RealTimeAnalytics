@@ -3,6 +3,7 @@ from typing import Generic, TypeVar, List
 
 from confluent_kafka import SerializingProducer
 from config import settings
+from utility.data_mapper import DataMapper
 
 T = TypeVar("T")
 
@@ -24,4 +25,6 @@ class Producer(Generic[T]):
         :return:
         """
         for items in self._produce_items:
-            pass
+            key = DataMapper.get_key()
+            value = DataMapper.get_value()
+            
