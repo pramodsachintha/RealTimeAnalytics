@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 
 from dataclasses_avroschema import AvroModel
 
@@ -36,6 +36,9 @@ class VehicleTelemetry(AvroModel):
     engine_damage: int
     gear_box_damage: int
     vehicle_fia_flags: int
+
+    def to_dict(self):
+        return asdict(self)
 
     class Meta:
         namespace = "VehicleTelemetryValue.v1"
